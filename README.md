@@ -33,7 +33,13 @@ User-configurable defaults:
 java_version: 8
 
 # which subversion?
-java_subversion: 112
+java_subversion: 131
+
+# required for versions not built-in
+#java_build:
+
+# required for versions not built-in and newer than 8u131
+#jdk_tarball_hash:
 
 # which directory to put the download file?
 java_download_path: /tmp
